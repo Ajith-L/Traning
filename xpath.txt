@@ -1,0 +1,77 @@
+											<Abouth xpath>
+ 1.what is xpath?
+  xpath is one the most flexialb and strongest location strategy and can be used for locating in a element in page.
+  
+ 2. how xml path and its functions handle html element?
+     both have same parents
+		sgml(stanard genralised markup lang)
+		
+3. what is approach for dynamic element?
+	don't have unique identifiers 
+4.tyes of xpath
+		1.absolute.
+		  absolute xpath is start from root node. it have single /
+		  
+		2.relative.
+			relative xpath is start from current node. it have double// in fornt of it
+
+identification strategies:
+location with respect to element and attributes:
+
+1.locating element with known attributes
+	syn:
+		//*[@id='txtUsername']
+2.locating element with known element and attributes
+	syn:
+		//elementname[@attributesname='value']
+3.locating element with known visible text
+	syn:
+		//elementname[test()/containes()='exact text']
+4.locating element when part of the visible text is known (partial match)
+	syn:  
+		//elementname[containes(text(),'part of  the text')]
+		
+5.locating element with known  mutiple attributes
+	syn:
+		//*[attributes1='value1'][attributes2='value2']..[attributesN='valueN'] 
+6.locating element when starting visible test is known
+	syn:
+		//elementname[starts-with(test(),'starting text')]
+7.locating element with dynamic attributes values
+	syn:
+		//elementname[start-with(@attributesname,'fixed prefix of te value')] 
+		
+		
+		
+locating element relative to known element
+
+1.locating a parent element
+	syn:
+		//[knownpath]parent::elementname
+
+2.locating a child element
+	syn:
+		//[knownpath]child::elementname
+	example:
+		//*[@id='divUsername']/child::input
+	
+3.locating	ancestor-(grandfarter) of a known element
+	syn:
+		//[knownpath]ancestor-::elementname
+4.locating	following element
+	syn:
+		//[knownpath]/following::elementname
+	
+
+5.locating preceding element
+	syn:
+		//[knownpath]/preceding::elementname
+
+6.locating following sibling
+	syn:
+		//[knownpath]/following-sibling::elementname
+
+7.locating preceding sibling
+	syn:
+		//[knownpath]/preceding-sibling::elementname
+	
