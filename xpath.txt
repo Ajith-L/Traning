@@ -1,4 +1,5 @@
-											<Abouth xpath>
+
+                                                      <Abouth xpath>
  1.what is xpath?
   xpath is one the most flexialb and strongest location strategy and can be used for locating in a element in page.
   
@@ -9,6 +10,7 @@
 3. what is approach for dynamic element?
 	don't have unique identifiers 
 4.tyes of xpath
+
 		1.absolute.
 		  absolute xpath is start from root node. it have single /
 		  
