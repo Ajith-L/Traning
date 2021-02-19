@@ -29,6 +29,7 @@ location with respect to element and attributes:
 3.locating element with known visible text
 	syn:
 		//elementname[test()/containes()='exact text']
+		
 4.locating element when part of the visible text is known (partial match)
 	syn:  
 		//elementname[containes(text(),'part of  the text')]
