@@ -9,6 +9,8 @@
 		
 3. what is approach for dynamic element?
 	don't have unique identifiers 
+
+
 4.tyes of xpath
 
 		1.absolute.
@@ -51,6 +53,10 @@ locating element relative to known element
 1.locating a parent element
 	syn:
 		//[knownpath]parent::elementname
+		
+		
+		
+		
 
 2.locating a child element
 	syn:
@@ -77,4 +83,5 @@ locating element relative to known element
 7.locating preceding sibling
 	syn:
 		//[knownpath]/preceding-sibling::elementname
-	
+		
+	      **********************************************************end*******************************************************************
