@@ -84,4 +84,6 @@ locating element relative to known element
 	syn:
 		//[knownpath]/preceding-sibling::elementname
 		
+		/****ading path***\
+		
 	      **********************************************************end*******************************************************************
